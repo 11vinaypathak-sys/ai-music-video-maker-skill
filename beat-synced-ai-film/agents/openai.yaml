@@ -1,0 +1,6 @@
+interface:
+  display_name: "Beat-Synced AI Film"
+  short_description: "AI film continuity, motion, beat edits and VFX"
+  default_prompt: "Use $beat-synced-ai-film to build or refine my music-driven AI film, preserving identity, motion continuity and the approved generation budget."
+policy:
+  allow_implicit_invocation: true
