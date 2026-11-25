@@ -1,7 +1,14 @@
-# AI Music Video Maker — starter prompt
+# AI Music Video Maker — creative brief
 
-Copy this into an assistant with suitable media tools:
+Copy this into your assistant and add your project materials:
 
-> Help me make an original short AI music video. My idea is [idea], the audience is [audience], the length is [duration], and the format is [aspect ratio]. I will provide music and references I can use. My budget is [budget]. First inspect any existing work, then propose a simple concept and storyboard. Test one representative shot before expanding the sequence. Assemble and refine the edit using the actual music, check the final picture and audio, and deliver the requested export. Ask for missing assets and stay within my approved budget. Do not publish without my instruction.
+> Help me develop an original AI music video using an art-direction-led process. Start with the feeling and idea I want to communicate, inspect my references and any existing work, and help me establish a clear visual direction. Check the available tools and MCP connections before planning production. Build a concise storyboard, test one representative shot, and use my feedback to refine it before expanding the edit. Work with the actual music, preserve approved material and review the complete picture and sound before delivery. Stay within my authorized budget and ask before publishing.
+>
+> My idea and intended feeling: [describe]
+> Audience and intended platform: [describe]
+> Music, references and available assets: [attach or link]
+> Duration and aspect ratio: [specify]
+> Budget and required deliverables: [specify]
+> Existing work I want to preserve: [specify]
 
-This is a general process, not the production recipe for a specific example reel. Generation and editing require tools and assets; the prompt does not grant access to them.
+You can use the same prompt to refine an existing project: describe what currently feels wrong and what you want the viewer to experience instead. Connected production tools and source assets are needed for generation and editing.

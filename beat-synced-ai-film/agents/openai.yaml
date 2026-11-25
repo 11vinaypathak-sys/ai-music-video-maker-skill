@@ -1,6 +1,6 @@
 interface:
-  display_name: "AI Music Video Maker — Starter"
-  short_description: "A general storyboard-to-export workflow for AI reels"
-  default_prompt: "Use $beat-synced-ai-film to plan an original short AI music video, test one shot and prepare a rough edit within my budget."
+  display_name: "AI Music Video Maker"
+  short_description: "Art direction, visual research and AI film production"
+  default_prompt: "Use $beat-synced-ai-film to develop my idea into an original music video through visual research, a storyboard and a focused motion test."
 policy:
   allow_implicit_invocation: true

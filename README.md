@@ -1,18 +1,31 @@
 # AI Music Video Maker
 
-A **general production workflow** for turning your own idea and music into an original short AI video or visual Reel.
+**An art-direction-led workflow by Vinay Pathak for turning an idea, a track and visual references into an original AI music video.**
 
-This public starter covers **brief → storyboard → test shot → rough edit → review → export**. It does not include the creator’s project-specific prompts, signature motion recipes, compositing settings, timing maps or source media. It is not an exact-recreation kit for a demonstration film.
+Developed through my work across design, motion and AI-assisted filmmaking. The process starts with the feeling a film should create, builds a visual direction around it, and uses small tests and specific feedback to shape the finished piece.
 
-## Try it
+**Idea → visual research → art direction → storyboard → motion test → edit → finishing**
 
-Copy the [starter prompt](beat-synced-ai-film/PROMPT.md) into an assistant with media tools. Supply your idea, music you can use, desired length, format and budget.
+## How it works
 
-Example: “Help me plan a short AI music video around my idea. Show a storyboard, then test one shot before making the full sequence.”
+- **Find the direction.** Turn an initial thought into a clear creative brief. Explore references for composition, atmosphere and storytelling.
+- **Make it tangible.** Develop a storyboard and test a representative shot before expanding production.
+- **Refine through feedback.** Translate “this feels off” into a concrete revision to pacing, framing, imagery or sound.
+- **Finish the piece.** Assemble the cut, review it against the brief and check the export.
+
+The tools serve the direction. Use available image and video generators, editing applications and MCP connections where they fit the task. The assistant checks which capabilities are actually connected before planning production.
+
+## Bring your idea
+
+Supply your concept, music you can use, visual references, intended format and budget. If a project already exists, include the latest version so the workflow can build on it.
+
+Try: “I want to turn this track and idea into a visual Reel. Help me find a direction, show a storyboard and test one shot before developing the full edit.”
+
+[**Use the creative brief prompt**](beat-synced-ai-film/PROMPT.md)
 
 ## Install in Codex
 
-Copy `beat-synced-ai-film` into your skills directory and invoke `$beat-synced-ai-film`. The existing skill name is retained for compatibility.
+Copy `beat-synced-ai-film` into your skills directory and invoke `$beat-synced-ai-film`.
 
 ```bash
 git clone https://github.com/11vinaypathak-sys/ai-music-video-maker-skill.git
@@ -20,24 +33,26 @@ mkdir -p ~/.codex/skills
 cp -R ai-music-video-maker-skill/beat-synced-ai-film ~/.codex/skills/
 ```
 
-For an existing installation, back it up and replace the folder deliberately; merging folders can leave obsolete reference files behind.
+If already installed, back up and replace the existing folder deliberately instead of merging old reference files into the new version. The skill identifier remains unchanged.
 
-## Included
+## Inside the workflow
 
-- [General workflow](beat-synced-ai-film/SKILL.md)
-- [Portable starter prompt](beat-synced-ai-film/PROMPT.md)
-- [Project brief and storyboard skeleton](beat-synced-ai-film/references/project-brief.md)
-- [Optional media verification helper](beat-synced-ai-film/scripts/verify_media.py)
+- [Skill instructions](beat-synced-ai-film/SKILL.md)
+- [Creative brief prompt](beat-synced-ai-film/PROMPT.md)
+- [Direction and storyboard worksheet](beat-synced-ai-film/references/project-brief.md)
+- [Media verification helper](beat-synced-ai-film/scripts/verify_media.py)
 
-The helper requires Python 3, ffmpeg and ffprobe. It inspects media and can verify archive integrity; it does not generate footage or certify creative quality.
+The optional helper requires Python 3, ffmpeg and ffprobe. It checks file integrity and technical properties; creative review happens through watching and listening.
 
 ```bash
 python3 beat-synced-ai-film/scripts/verify_media.py --help
 ```
 
-Generation and editing depend on your available tools and may incur provider costs. Bring your own authorized assets. No subscriptions, credits, personal imagery or music are included. No specific visual result or social-media reach is promised.
+Generation and editing require suitable tools and your own authorized assets. Provider charges are separate; agree a budget before production. Outputs depend on the brief, source material, tools and creative decisions.
 
-For editing existing travel footage, see [Travel Reel Editor](https://github.com/11vinaypathak-sys/travel-reel-editor-skill).
+Working with existing travel footage? See [Travel Reel Editor](https://github.com/11vinaypathak-sys/travel-reel-editor-skill).
+
+Created by **Vinay Pathak** · [Portfolio](https://11vinaypathak-sys.github.io/portfolio/) · [Behance](https://www.behance.net/1vinaypathak)
 
 ## License
 

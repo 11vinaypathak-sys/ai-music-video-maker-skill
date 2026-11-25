@@ -1,26 +1,37 @@
 ---
 name: beat-synced-ai-film
-description: Plan and assemble a basic AI music video or visual Reel using the user's own idea, assets and music. Use for a generic brief, storyboard, test shot, rough edit and export review.
+description: Develop original AI music videos and visual Reels through creative briefing, visual research, art direction, storyboarding, motion tests and iterative editing. Use with the user's music, references and available media tools.
 ---
 
-# AI Music Video Maker — General Workflow
+# AI Music Video Maker
 
-Help the user develop an original short video. This public edition provides a production skeleton, not a recipe for recreating a particular creator’s film or signature visual style.
+An art-direction-led workflow by Vinay Pathak. Translate a creative intention into a coherent film through visual exploration, focused tests and observable revisions. Let the user's project determine the aesthetic and tools.
 
-## Workflow
+## Establish the creative intention
 
-1. Establish the goal, audience, duration, aspect ratio, available assets and budget. For an existing project, inspect the latest version before making changes.
-2. Write a short concept and a simple beginning, middle and ending. Use the user's references to discuss direction, then develop an original treatment.
-3. Make a small storyboard with each shot’s purpose, subject, setting and approximate duration. Use [the brief](references/project-brief.md) only where helpful.
-4. Test one representative shot with available tools before generating the full sequence. Keep the user's subject and approved visual direction consistent. Check costs and permissions before paid work; respect the authorized cap and check uncertain job status before retrying.
-5. Assemble a rough cut against the supplied music. Choose timing by listening to the actual excerpt; do not infer precise beats from a song title. Add only effects that support the chosen concept. The project determines their design and settings.
-6. Review continuity, pacing, readable titles, framing and audio. Make targeted revisions in the existing project, preserving source assets.
-7. Export and inspect the complete result. Deliver the requested file and supported editable materials. Distinguish a storyboard, generated take, preview and finished export. Upload or publish only when requested.
+Inspect the latest project and supplied references before proposing a rebuild. Clarify what the audience should feel or understand, where the film will appear, its duration and format, the available assets and the production budget. Ask only for information that changes the next decision.
 
-## Scope and tools
+Write a short direction: the intended feeling, subject, visual character and role of the music. Distinguish what the user has approved from ideas still being explored. Use [the worksheet](references/project-brief.md) when a written brief helps.
 
-Use the tools available in the current environment. This skill does not supply generation credits, accounts, music rights, identity assets or a fixed shot/effect library. Ask for missing assets rather than inventing them. Do not promise an exact recreation of any example video.
+## Check the available tools
 
-For technical file checks, the optional read-only helper `scripts/verify_media.py` requires Python 3, ffmpeg and ffprobe. It checks media integrity; it does not judge creative quality or establish rights. Run it with `--help` for options.
+Discover relevant connected tools or MCP capabilities before promising generation, timeline control, compositing or rendering. Use existing connections where sufficient. If a required capability is missing, explain that specific gap and offer an available route; do not require a fixed tool suite or imply access that has not been verified.
 
-For use without skill installation, see [PROMPT.md](PROMPT.md).
+Confirm any paid operation against the authorized budget. Check uncertain job status before retrying. Tool access does not authorize publication or account changes.
+
+## Develop and test
+
+1. Research references when requested or needed to resolve the direction. Identify what is useful about their composition, atmosphere or narrative; create a treatment for this project. Distinguish references actually viewed from descriptions or thumbnails.
+2. Build a concise storyboard with each shot's purpose, visual content and approximate duration. Reuse approved assets and retain the subject's identity when relevant.
+3. Test one representative shot before expanding the sequence. Review whether it communicates the intended feeling and fits the rest of the project. Make the smallest revision that answers the feedback.
+4. Assemble the edit against the supplied audio. Listen to the actual excerpt before choosing timing; do not invent precise beat timestamps from a song title. Select transitions and effects for this concept.
+5. Review framing, continuity, pacing, text and sound together. Convert subjective feedback into an observable change, such as a clearer subject, a longer pause or a less crowded composition. Preserve successful work during revisions.
+6. Export, watch and listen to the complete result. Provide the agreed deliverables and supported editable materials. State what is a concept, test, preview or finished export. Publish only when requested.
+
+## Delivery checks
+
+The optional `scripts/verify_media.py` helper performs read-only technical checks using Python 3, ffmpeg and ffprobe. Run `--help` for options. Technical checks support, but do not replace, visual and audio review.
+
+Keep source assets and a recoverable working version. Ask for missing files rather than inventing them. Report tool or asset limitations that materially affect the result.
+
+For assistants without skill loading, use [PROMPT.md](PROMPT.md).
