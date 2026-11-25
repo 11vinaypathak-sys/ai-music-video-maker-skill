@@ -1,20 +1,32 @@
-# Beat-Synced AI Film Skill
+# AI Music Video Maker
 
-A reusable creative-production workflow for AI music videos, psychedelic self-portraits, beat-driven motion design and After Effects refinement. It connects reference research, identity-consistent storyboards, physically readable generation prompts, credit-aware tests, speed ramps, tracked VFX, cover art and verified delivery.
+**Turn an idea and a music track into a short AI music video, with scenes, effects and cuts timed to the music.**
 
-Created from an iterative short-film production process. The distinctive lesson is continuity: the body, camera, effects and edit must tell the same motion story. The package includes no personal photographs, music, generated footage, account information or private project files.
+A reusable **Codex skill + copy-paste prompt** for AI-assisted video production. It guides storyboards, consistent characters, generated footage, beat-synced editing, cover art and export checks. Rendering and generation use the tools connected to your assistant.
 
-## Use it
+**You bring:** your idea, music you can use, visual references, desired length and any generation budget. Add an approved portrait if the film features you.
 
-**Codex:** copy the `beat-synced-ai-film` directory into your configured skills directory, usually `~/.codex/skills/`. Start a chat that loads installed skills and invoke `$beat-synced-ai-film`. Automatic selection is also enabled through its description.
+**You can make:** a short music video or visual Reel, plus a cover and editable project when requested and supported by your tools. Personal portraits, music and footage are not included in this repository.
+
+## Start here
+
+- **Try it in a chat:** copy the [ready-to-use prompt](beat-synced-ai-film/PROMPT.md), add your brief and attach your own assets. No skill installation is needed; generation and editing still need suitable tools.
+- **Use it in Codex:** follow the installation steps below, then invoke `$beat-synced-ai-film`.
+- **Already have travel footage?** Use [Travel Reel Editor](https://github.com/11vinaypathak-sys/travel-reel-editor-skill) to shape existing clips and photos into a film.
+
+Try asking: “Help me make a 30-second AI music video from this idea and track. Show me the storyboard first, then test one shot within my budget.”
+
+## Install in Codex
+
+Copy the `beat-synced-ai-film` directory into your configured skills directory, usually `~/.codex/skills/`. Start a chat that loads installed skills and invoke `$beat-synced-ai-film`. The existing skill ID stays `beat-synced-ai-film`, so current installations and prompts keep working.
 
 ```bash
-git clone https://github.com/11vinaypathak-sys/beat-synced-ai-film-skill.git
+git clone https://github.com/11vinaypathak-sys/ai-music-video-maker-skill.git
 mkdir -p ~/.codex/skills
-cp -R beat-synced-ai-film-skill/beat-synced-ai-film ~/.codex/skills/
+cp -R ai-music-video-maker-skill/beat-synced-ai-film ~/.codex/skills/
 ```
 
-If that skill is already installed, review and replace its existing folder deliberately rather than nesting a second copy. You can also give a compatible skill installer [this repository URL](https://github.com/11vinaypathak-sys/beat-synced-ai-film-skill) and the skill path `beat-synced-ai-film`.
+If that skill is already installed, review and replace its existing folder deliberately rather than nesting a second copy. You can also give a compatible skill installer [this repository URL](https://github.com/11vinaypathak-sys/ai-music-video-maker-skill) and the skill path `beat-synced-ai-film`.
 
 **Other assistants:** use the [portable prompt](beat-synced-ai-film/PROMPT.md), then provide your own references and assets. For deeper work, include the relevant reference documents. A prompt cannot install tools or give an assistant account access.
 
@@ -52,11 +64,11 @@ python3 beat-synced-ai-film/scripts/verify_media.py final.mp4 --expected-duratio
 
 It probes and fully decodes the video, reports black intervals and audio loudness/peak, and optionally tests a ZIP. Black intervals trigger review warnings rather than automatic failure because black may be intentional. A successful technical report does not prove creative quality, audio synchronization, asset licensing or After Effects portability.
 
-## Discovery and sharing
+## Sharing and discovery
 
 The installable skill has a capability-specific name, trigger description and UI metadata. This README provides natural-language examples and direct links to the detailed procedures so people and AI tools can identify the right entry point.
 
-Repository: [11vinaypathak-sys/beat-synced-ai-film-skill](https://github.com/11vinaypathak-sys/beat-synced-ai-film-skill).
+Repository: [11vinaypathak-sys/ai-music-video-maker-skill](https://github.com/11vinaypathak-sys/ai-music-video-maker-skill).
 
 This repository contains reusable instructions, templates and a verification helper. It does not include the originating film, personal portraits, music, commercial fonts, credentials or private production files. It works with available generation providers and MCP or application-control integrations; it does not install those integrations or grant account access.
 

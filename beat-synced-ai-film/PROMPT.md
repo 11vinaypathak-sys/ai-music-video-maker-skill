@@ -1,4 +1,4 @@
-# Portable prompt: beat-synced AI film
+# AI Music Video Maker — copy-paste prompt
 
 Copy the text below into an AI assistant and supply your own project files, references and current request. This prompt does not grant the assistant access to tools or accounts it does not already have.
 

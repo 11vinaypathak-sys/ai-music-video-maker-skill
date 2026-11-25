@@ -1,9 +1,9 @@
 ---
 name: beat-synced-ai-film
-description: Create or refine beat-synced AI music videos, identity-consistent self-portrait films, psychedelic motion effects, and matching Reel covers. Use for storyboard-to-video workflows combining generated footage, speed ramps, impact choreography and After Effects compositing, or for refining a specific shot in that workflow.
+description: Create or refine AI music videos and visual Reels from an idea, music and references. Use for storyboarding, consistent characters, AI-generated footage, beat-synced editing, motion effects, After Effects compositing and matching covers, including revisions to an existing AI film.
 ---
 
-# Beat-Synced AI Film
+# AI Music Video Maker
 
 Turn a visual idea into a coherent short film: persistent identity, physically readable motion, effects that evolve independently, musical timing and an editable verified delivery. Work in the current assistant and available tools; do not require a particular provider or another AI service.
 
